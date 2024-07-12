@@ -1,0 +1,13 @@
+TREE_COLORS
+SEPARATOR COMMA
+DATA
+emailclient_AddressBook,label_background,#00ff00
+emailclient_AutoResponder,label_background,#00ff00
+emailclient_Base,label_background,#00ff00
+emailclient_Decrypt,label_background,#00ff00
+emailclient_Encrypt,label_background,#00ff00
+emailclient_Forward,label_background,#00ff00
+emailclient_Keys,label_background,#00ff00
+emailclient_Sign,label_background,#00ff00
+emailclient_Verify,label_background,#00ff00
+

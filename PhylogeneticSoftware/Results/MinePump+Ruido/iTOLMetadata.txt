@@ -1,0 +1,12 @@
+TREE_COLORS
+SEPARATOR COMMA
+DATA
+minepump_base,label_background,#00ff00
+minepump_highWaterSensor,label_background,#00ff00
+minepump_lowWaterSensor,label_background,#00ff00
+minepump_methaneAlarm,label_background,#00ff00
+minepump_methaneQuery,label_background,#00ff00
+minepump_startCommand,label_background,#00ff00
+minepump_stopCommand,label_background,#00ff00
+
+

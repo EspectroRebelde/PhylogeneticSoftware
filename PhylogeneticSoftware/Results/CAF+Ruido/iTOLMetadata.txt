@@ -1,0 +1,20 @@
+TREE_COLORS
+SEPARATOR COMMA
+DATA
+Q40_URBOS,label_background,#00ff00
+Q46_KAOHSIUNG,label_background,#00ff00
+Q53_UTRECHT,label_background,#00ff00
+Q54_LUXEMBURGO,label_background,#00ff00
+Q56_CANBERRA,label_background,#00ff00
+Q57_NEWCASTLE,label_background,#00ff00
+Q59_AMSTERDAM,label_background,#00ff00
+Q62_DE_LIJN_WEST_FLANDERS,label_background,#00ff00
+Q64_MAURITIUS,label_background,#00ff00
+Q66_VITORIA,label_background,#00ff00
+Q67_LUND,label_background,#00ff00
+Q68_OSLO,label_background,#00ff00
+Q70_PARRAMATA,label_background,#00ff00
+Q72_BIRMINGHAM_3GT,label_background,#00ff00
+Q75_LISBOA,label_background,#00ff00
+Q80_MULTIOFERTA,label_background,#00ff00
+
