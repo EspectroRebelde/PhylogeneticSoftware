@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12</LangVersion>
+    <RootNamespace>PhylogeneticApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\**" />
+    <Compile Remove="Manual_Creation\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Interfaces\**" />
+    <EmbeddedResource Remove="Manual_Creation\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Remove="Interfaces\**" />
+    <None Remove="Manual_Creation\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Doxygen" Version="1.8.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Fastenshtein" Version="1.0.0.8" />
+    <PackageReference Include="FP.Memoization" Version="1.1.0" />
+    <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1" />
+    <PackageReference Include="Memoizer.NETStandard" Version="2023.5.1.16" />
+    <PackageReference Include="MemoizR" Version="0.1.1-rc.3" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0-preview.2.24128.5" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0-preview.2.24128.5" />
+    <PackageReference Include="Pastel" Version="5.0.0" />
+    <PackageReference Include="PdfPig" Version="0.1.9-alpha-20240530-d7e43" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="YamlDotNet" Version="15.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Results\" />
+  </ItemGroup>
+
+</Project>
